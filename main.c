@@ -12,7 +12,7 @@ int main(int argc, const char * argv[]) {
   initialize(polymerase, sequence);
   calculate_similarity();
   pretty_print();
-	return 0;
+  return 0;
 }
 
 char* read_file_content(char* file_path) {
